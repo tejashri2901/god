@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>trial</title>
+<style>
+.box{
+outline:3px solid white;
+font-size:50;}
+p{text-align:center;}
+</style>
+</head>
+<body bgcolor="grey">
+<p><strong>This is survey form.</strong></p>
+<p>Enter valid information</p>
+
+<form class="box" target="blank" align="center" autocomplete="on">
+<fieldset>
+<legend>Form</legend>
+<label for="fname">Firstname:</label><br>
+<input type="text" id="name" name="fname" required><br>
+<label for="lname">Lastname:</label><br>
+<input type="text" id="name" name="lname" required><br>
+<label for="col">Your Favourite Color:</label><br>
+<input type="color" id="col" name="col" required><br>
+<label for="birth">Date of Birth:</label><br>
+<input type="date" id="birth" name="birth" required><br>
+<p>Gender:</p>
+<input type="radio" id=female" name="gender" value="Female">
+<label for="female">Female</label>
+<input type="radio" id="html" name="gender" value="Male">
+<label for="male">Male</label>
+<input type="radio" id="html" name="gender" value="Other">
+<label for="other">Other</label><br>
+<label for="mob">Mobile No.:</label><br>
+<input type="tel" id="name" name="mob" pattern="[0-9]{10}" max="10" required><br>
+<label for="email">Enter your email:</label><br>
+ <input type="email" id="email" name="email" required><br>
+<label for="fname">Password:</label><br>
+<input type="password" id="pwd" name="pwd" pattern="[a-z]{6}@[0-9]{6}" placeholder="abcdef@12345"><br>
+<br>
+<input type="button" value="Submit"><input type="reset">
+</fieldset>
+</form>
+<p><a href="https://www.javatpoint.com/html-tutorial">For Tutorial of This Form</a></p>
+</body>
+</html>
